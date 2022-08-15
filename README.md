@@ -7,33 +7,3 @@
 
 :yellow_heart: :blue_heart:
 
-# TASK 2: selectors
-Login
-//*[@id="login"]
-//*[text()="Login"]
-//child::div/label
-
-Password
-//*[@id="password"]
-//*[text()="Password"]
-//child::div
-
-Remind password
-//*[@id="__next"]/form/div/div[1]/a
-//*[text()="Remind password"]
-//child::div/a
-
-English
-//*[@id="__next"]/form/div/div[2]/div/div
-//*[text()="English"]
-//child::div
-
-Polski
-//*[@id="__next"]/form/div/div[2]/div/div
-//*[text()="Polski"]
-//child::div
-
-Sign In
-//*[@id="__next"]/form/div/div[2]/button/span[1]
-//*[text()="Sign in"]
-//child::div
