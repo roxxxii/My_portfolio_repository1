@@ -7,3 +7,34 @@
 
 :yellow_heart: :blue_heart:
 
+# TASK 2: selectors
+Login
+*//*[@id="login"]
+*//input[@name= 'login' ]
+*//child::div/label
+
+Password
+*//*[@id="password"]
+*//input[@type= 'password' ]
+*//input[@id ='password' ]
+
+Remind password
+*//*[@id="__next"]/form/div/div[1]/a
+*//*[text()="Remind password"]
+*//child::div/a
+
+English
+*//*[@id="__next"]/form/div/div[2]/div/div
+*//li[@aria-disabled= 'false' and @data-value]
+*//input[@value ='en' ]
+
+Polski
+*//*[@id="__next"]/form/div/div[2]/div/div
+*//*[text()="Polski"]
+*//div[@aria-haspopup= 'listbox']
+
+Sign In
+*//*[@id="__next"]/form/div/div[2]/button/span[1]
+*//*[text()="Sign in"]
+*//button[@type= 'submit']
+
